@@ -23,7 +23,7 @@ function App() {
   return (
     <main>
       <h1>React Calculator</h1>
-      <input value={input} disabled />
+      <input type="text" value={input} disabled />
       <div className="result">{result}</div>
       <div>
         <button onClick={() => handleClick("7")}>7</button>
